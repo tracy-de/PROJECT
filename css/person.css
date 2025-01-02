@@ -1,0 +1,139 @@
+
+
+
+body{
+    max-width: 100vw;
+    padding-top: 2vw;
+    font-size: 2.5vw;
+   
+}
+
+.container {
+    display: flex;
+    box-shadow: 0 0 0.5vw rgba(204, 173, 125, 0.05);
+    border: 0.2vw solid #ccc; 
+    border-radius: 0.7vw; 
+    max-width:100vw;
+    width: 100%; 
+}
+
+
+.front{
+    padding: 0.5vw;
+    width: 60%;  
+    border: 0.3vw solid #b69d9d; 
+    border-radius: 0.5vw; 
+
+}
+
+.main{
+    padding: 0;
+    width:150%;
+    border: 0.3vw solid #b69d9d; 
+    border-radius: 0.5vw; 
+    
+}
+
+.btn{
+	font-size: 2.5vw;
+}
+
+button:hover {
+    background-color: #e7d066; 
+}
+
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: 0.3vw solid #aaa;
+    cursor: pointer;
+    
+}
+
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.edit,
+.details{
+    display: none;
+}
+.active{
+    position: relative;
+    display: block;
+}
+
+.edit-btn{
+    border-radius: 0.8vw; 
+}
+
+img{
+    width:80%;
+}
+
+
+table {
+
+    box-shadow: 0 0.5vw 10px rgba(0, 0, 0, 0.1);
+    border: 0.25vw solid #ddd;
+
+}
+
+th {
+    background-color: #b497b0;
+    color: white;
+    width: 50vw;
+    max-width: 60vw;
+   
+}
+
+td {
+
+    padding: 0.25vw;
+    text-align: center;
+    border: 0.25vw solid #ddd;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+
+input {
+    padding: 0.2vw;
+    border: 0.2vw solid #ccc;
+    border-radius: 0.5vw;
+    margin: 0.2vw;
+    background-color: #e7d066;
+    width:25vw;
+}
+input:focus {
+    border-color: #4CAF50;
+}
+
+
+
+button {
+    background-color: #df7645; 
+    color: white; 
+    border: none; 
+    border-radius: 0.25vw; 
+    padding: 1vw 1vw;  
+    cursor: pointer; 
+    transition: background-color 0.5s ease; 
+
+}
+
+p{
+    margin-bottom: 0;
+}
+
+info{
+    margin-bottom: 1vw;
+}
