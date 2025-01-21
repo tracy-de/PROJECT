@@ -1,0 +1,136 @@
+
+body{
+    padding-top: 2vw;
+    font-size: 2vw;
+    width:100vw;
+}
+
+
+.container {
+    display: flex;
+    box-shadow: 0 0 1vw rgba(204, 173, 125, 0.05);
+    border: 0.25vw solid #ccc; 
+    border-radius: 0.3vw; 
+    padding: 2vw; 
+    width:100vw;
+    
+}
+
+.front{
+    padding: 2vw;
+    width:auto;  
+    border: 0.5vw solid #b69d9d; 
+    border-radius: 0.25vw; 
+    
+}
+
+.main{
+    padding: 0.2vw;
+    width: 80%;
+    border: 0.25vw solid #b69d9d; 
+    border-radius: 0.5vw; 
+}
+
+ul{
+    list-style-type: none;
+    padding: 1vw;
+}
+
+button {
+    background-color: #df7645; 
+    color: white; 
+    border: none; 
+    border-radius: 0.5vw; 
+    padding: 2vw, 2vw; 
+    font-size: 2vw; 
+    cursor: pointer; 
+    transition: background-color 0.5s ease; 
+    margin-top: 2vw;
+}
+
+button:hover {
+    background-color: #e7d066; 
+}
+
+.btns{
+    cursor: pointer; 
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 0.25vw solid #aaa;
+    width:52vw;
+}
+
+.edit,
+.details{
+    display: none;
+}
+.active{
+    position: relative;
+    display: block;
+}
+
+.edit-btn{
+    position: absolute; 
+    top: 0vw; 
+    right: 8vw;   
+}
+
+img{
+    width:80%;
+}
+
+input {  
+    border: 0.25vw solid #ccc;
+    border-radius: 0.5vw;
+    transition: border-color 0.3s;
+    margin: 1vw;
+    width:30vw;
+   	height:5vw;
+   	font-size:3vw;
+}
+
+input:focus {
+    border-color: #13230b;
+}
+
+table {
+
+    box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.1);
+    border: 0.25vw solid #ddd;
+}
+
+th {
+    background-color: #49671f;
+    color: white;
+    width: 50vw;
+    max-width: 60vw;
+    font-size:1.7vw;
+}
+
+
+td {
+   
+    text-align: center;
+    border: 0.25vw solid #ddd;
+}
+
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+tr:hover {
+    background-color: #ddd;
+}
+
+
+.backhome
+.logoutbtn{
+    right: 2vw;
+    top:2vw;
+}
+
+div{
+    padding: 0.5vw;
+}
